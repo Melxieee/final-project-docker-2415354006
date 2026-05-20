@@ -55,6 +55,7 @@ app.get('/users', (req, res) => {
   );
 });
 
+// tambah
 app.post('/users', (req, res) => {
   const { name } = req.body;
 
