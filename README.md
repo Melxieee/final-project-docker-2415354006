@@ -129,6 +129,7 @@ docker exec -it backend-app sh
    <img width="1918" height="1140" alt="image" src="https://github.com/user-attachments/assets/1c18a980-d597-4ed6-8aea-f190996536c5" />
    
 ## 2.⁠ ⁠⁠Pengujian Endpoint -> Request dan Response (Browser, Postman)
+Pengujian endpoint API dilakukan menggunakan website Hoppscotch. Pengujian dilakukan pada endpoint GET, POST, PUT, dan DELETE untuk memastikan backend application dapat berjalan dengan baik serta terhubung dengan database MySQL melalui Docker Compose.
 
    **GET**
     <img width="1918" height="958" alt="image" src="https://github.com/user-attachments/assets/39481b2a-403f-476f-952c-521bbc769a7b" />
