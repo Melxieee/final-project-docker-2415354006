@@ -37,7 +37,7 @@ const initDatabase = () => {
 initDatabase();
 
 app.get('/', (req, res) => {
-  res.send('Backend Docker Running');
+  res.send('Backend Docker Running say Hello Moses From TRPL B');
 });
 
 app.get('/users', (req, res) => {
@@ -55,7 +55,6 @@ app.get('/users', (req, res) => {
   );
 });
 
-// tambah
 app.post('/users', (req, res) => {
   const { name } = req.body;
 
