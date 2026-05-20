@@ -104,15 +104,28 @@ docker build compose up --build
 docker build compose up --build
 ```
    <img width="1918" height="1140" alt="image" src="https://github.com/user-attachments/assets/9c4c0883-6d97-45be-85e2-d0a334619ae1" />
+   
    **Pengujian Docker Volume**
    ```bash
 # Perintah yang dijalankan
-docker build compose up --build
+docker volume ls
 ```
    <img width="1918" height="1135" alt="image" src="https://github.com/user-attachments/assets/50fb73b5-c327-4cee-aea2-f3b1e8bb92ae" />
-   **Pengujian Container**
+   
+**Pengujian Container**
+   ```bash
+# Perintah yang dijalankan
+docker ps
+```
+
    <img width="1607" height="400" alt="image" src="https://github.com/user-attachments/assets/83cf5c9a-7dfa-4351-ac93-326c215fad92" />
-   **Pengujian Network Docker**
+
+**pengujian network**
+ ```bash
+# Perintah yang dijalankan
+docker exec -it backend-app sh
+```
+
    <img width="1918" height="1140" alt="image" src="https://github.com/user-attachments/assets/1c18a980-d597-4ed6-8aea-f190996536c5" />
    
 ## 2.⁠ ⁠⁠Pengujian Endpoint -> Request dan Response (Browser, Postman)
@@ -127,6 +140,12 @@ docker build compose up --build
      <img width="1918" height="767" alt="image" src="https://github.com/user-attachments/assets/6f779577-c920-40f1-8b52-faa0b288fddd" />
  
 ## 3. Pengujian upload ke Docker Hub
+ ```bash
+# Perintah yang dijalankan
+docker login
+docker tag backend-project mosestrplb/backend-project
+docker push mosestrplb/backend-project
+```
 
    **Uji Docker HUB**
    <img width="1918" height="761" alt="image" src="https://github.com/user-attachments/assets/91a3be9a-9232-4ace-8d7e-63662b87af0e" />
