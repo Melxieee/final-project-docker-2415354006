@@ -52,7 +52,7 @@ Pada langkah ini dibuat file .env untuk menyimpan konfigurasi aplikasi dan datab
 <img width="417" height="365" alt="image" src="https://github.com/user-attachments/assets/15bb12c4-3047-489c-ba46-0a97ddf072c4" />
 
 
-## Langkah 3: Membuat Backend API Express.js
+## Langkah 3: Membuat Backend API Express.js (membuat app.js)
 
 Pada langkah ini dibuat backend API menggunakan Express.js dan MySQL2. API digunakan untuk operasi CRUD data users.Membuat app.js Backend menggunakan hostname mysql karena mysql adalah nama service pada Docker Compose.
 Endpoint /users digunakan untuk mengambil data dari database MySQL.
@@ -71,7 +71,7 @@ Pada langkah ini dibuat Dockerfile untuk melakukan containerization aplikasi bac
 <img width="505" height="367" alt="image" src="https://github.com/user-attachments/assets/c957cc00-2d7b-4e74-82e8-88da325987f2" />
 
 
-## Langkah 5: Membuat Docker Compose
+## Langkah 5: Membuat Docker Compose (docker-compose.yml)
 
 Pada langkah ini dibuat file docker-compose.yml untuk menjalankan multi-container application yang terdiri dari backend dan MySQL.
 
