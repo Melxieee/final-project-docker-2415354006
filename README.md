@@ -10,7 +10,7 @@
    <img width="1918" height="1140" alt="image" src="https://github.com/user-attachments/assets/1c18a980-d597-4ed6-8aea-f190996536c5" />
    
 2.⁠ ⁠⁠Pengujian Endpoint -> Request dan Response (Browser, Postman)
-    "GET"
+   "GET"
     <img width="1918" height="958" alt="image" src="https://github.com/user-attachments/assets/39481b2a-403f-476f-952c-521bbc769a7b" />
     "POST"
       <img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/52c99b3c-c3e6-4900-a4c8-2c000296330b" />
